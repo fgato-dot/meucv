@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html Lang="en">
+<head>
+</html><div id="header"></div>
+<div class="left"></div>
+<div class="stuff">
+  <br><br>
+  <head>
+     <style>
+      body {
+        background-color: rgb(102, 102, 164);
+
+      }
+     </style>
+  </head>
+  
+  <h1>Fernando Ferraz</h1>
+  <h2>Cloud Enthusiast| AWS Certified | Economics & Finance Background</h2>
+  <p>Visitor Count: <span id="visitor-count">Loading...</span></p>
+  <h4> W14 9QN, LONDON ; 4407851389577; 
+       fjmff@fjose1025.awsapps.com </h4>
+
+
+  </h2>
+  <hr />
+  <br>
+  <h2>Professional Summary</h2>
+  <p>AWS Certified Cloud entusiast with a strong foundation in Economics and Finance. Recently transitioned in to cloud computing. holding the AWS
+  Certifed Cloud Practicioner and AWS Solutions Architect - Associate (SAA-C03) certifications. I bring analytical thinking, problem-solving skills
+  , and a busines-oriented mindset from my background in economics, accounting, and customer service. Currently
+  building hands-on cloud projects to gain practical experience and apply my knowledge in real-world scenarios.
+  .</p>
+</p>
+ </ul>
+ <p>
+  <h3>Certifications</h3>
+</p>
+  <ul>
+    <li>AWS Certified Solutions Architect - Associate (SAA-C03)
+        Amazon Web Services 2025
+    </li>
+    <li>AWS Certifed Cloud Praticioner
+        Amazon Web Services 2024
+    </li>
+   </ul>
+  <h3>Cloud Skills</h3>
+  <ul>
+    <li>AWS Core Services:EC2,S3,IAM,VPC,CloudWatch,RDS,DynamoDB</li>
+    <li>Architecture Fundamentals: High Availability, Scalability, Fault Tolerance</li>
+    <li>Security Best Practices:IAM policies,shared responsibility model</li>
+    <li>Cloud Economics:Cost Optimization,pricing models,TCO</li>
+    <li>Basic CLI & Console Navigation</li>
+    <li>Currently working on hands-on projects using AWS Free Tier</li>
+  </ul>
+  <h3>Projects(In Progress)</h3>
+  <ul>
+    
+    <li>Static Website Hosing on S3- Set up a static website with custom domain
+        and CloudFront CDN</li>
+    <li>Multi-tier Web Application Architecture- Designing a simple architecture  using
+        EC2, RDS, and Load Balancer</li>
+    </li>
+    <li>Budget Tracking Dashboard (Planned)- Combining cloud and finance background
+        to create a cloud-based tool for financial tracking
+    </li>
+  </ul> 
+  <h3>Education & Qualifications</h3>
+  <ul>
+    <li>BSc in Economics
+        University of Trás-os-Montes and Alto Douro (UTAD) 2007
+           Internership: Financial Markets, University of Arizona(as part of economics
+           degree)
+           Module: Stock Analysis, Macroeconomics, Data Analysis</li>
+    </li>
+    <li>Diploma in Accounting Level 3, AAT</li>
+    </li>
+    <li>Financial budgeting and forecasting
+    </li>
+  </ul> 
+  <p class="head"><h3>Professional Background</h3></p>
+  <ul>
+    <P>
+      <h4>Finance Analyst and AWS Solutions Architect - Associate</h4>
+      <h4>FF London,  Oct 2024 - Currently working</h4>
+   </p>
+    <p>
+    <li>AWS Architecting and Data Analytics with Excel, Power BI, AWS QuickSight skills for BI</li>
+    <li>Designed and deployed AWS infrastructure, Implemented data analytics solutions that improved operational efficiency, 
+        leading to a 20% reduction in costs.</li>
+    </p>
+    <p>
+      <h4>Customer Service Roles </h4>
+      <h4>NRS Healthcare London May 2022 - Aug 2024</h4>
+    </p>
+
+    <p>
+       <li>Delivered solutions in high-pressure environments</li>
+       <li>Developed strong communication and problem-solving skills</li>
+       <li>Built trust and long-term relationships with clients</li>
+    </p>
+      <h4>Operations team  </h4>
+      <h4>McDonald's/Paul Rhodes/Hermes London Jan 2017 - March 2020 </h4>
+
+       <li>Stock Manangement</li>
+   
+       <h4>Finance Assistant 2016 </h4>
+       <h4>Certified Accountants , Ltd London</h4>
+       <p>
+       <li>Managed financial data entry, reconciliations, and reporting</li>
+       <li>Supported month-end close and budgeting tasks </li>
+        </pi>
+        </ul>
+  
+        <p class="head"><h3>Languages</h3></p>
+  
+        <ul>
+        <li>English (Fluent)</li>
+
+        <li>Portuguese (Native)</li>
+        <li>Spanish (Fluent)</li>
+        </ul>
+
+  <p class="head"><h3>Career Goals</h3></p>
+<p>
+   <ul>
+    Currently seeking junior or entry-level opportunitues in cloud computing, where I can
+    contribute my business acumen and grow my hands-on technical skills. Interested in 
+    combining cloud, finance, and data to build impactful solutions
+   </ul>
+</p>
+
+
+
+<p class="head"><h3>Interests</h3></p>
+   <ul>
+    <li>Drawing</li>
+    <li>Photography</li>
+    <li>Swimming</li>
+    <li>Cinema</li>
+    <li>Literature</li>
+  </ul>
+
+<script>
+// Fetch visitor count from API
+fetch('https://w55qt4i61k.execute-api.eu-west-2.amazonaws.com/Prod/visitor-count/')
+  .then(response => response.json())
+  .then(data => {
+    document.getElementById('visitor-count').textContent = data.count;
+  })
+  .catch(error => {
+    console.error('Error:', error);
+    document.getElementById('visitor-count').textContent = 'Error loading count';
+  });
+</script>
+</body>
+</html>
